@@ -14,14 +14,24 @@
   .header { 
     grid-area: header; 
     height: 100px;
+    border: 1px solid black; 
+    padding: 10px;
+
 }
   .main { 
     grid-area: main; 
 
     place-items: center;
+    border: 1px solid black; 
+    padding: 10px;
+
 }
   .footer { 
     grid-area: footer; 
+    border: 1px solid black; 
+    padding: 10px;
+
+
 }
 .footer-info {
     width: 100%;
@@ -41,4 +51,12 @@
     display: flex;
     justify-content: space-between;
     float: right;
+}
+
+.logo {
+  width: 20%;
+}
+
+nav {
+  width: 80%;
 }
